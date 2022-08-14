@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --Whitey: hsl(0, 0%, 100%);
+}
+body{
+    background-color:var(--Very-dark-blue-main-BG);  
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+.main-container{
+    background-color: var(--Very-dark-blue-card-BG);
+    width: 349px;
+    margin: 0 auto; 
+    margin-top: 58px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.top-container img{
+    width: 100%;
+    /* width: 295px; */
+    border-radius: 10px;
+}
+.equilibrum{
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+    color: var(--Whitey);
+   
+}
+.equilibrum:hover{
+    color:var(--Cyan)
+}
+
+.equilibrum p{
+    color: var(--Soft-blue);
+    padding: 10px 0 0 0;
+    font-weight: 300;
+    line-height: 25px;
+}
+.ethereum{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px groove var(--Soft-blue);
+    padding-bottom: 15px;
+}
+.ethereum-icon{
+    display: flex;
+    color: var(--Cyan);
+}
+.ethereum-icon img{
+    width: 15px;
+    height: 25px;
+    margin-right: 5px;
+}
+.time-left{
+    display: flex;
+}
+
+.time-left img{
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+}
+.time-left h4{
+    white-space: nowrap;
+    color: var(--Soft-blue);
+    font-weight: 300;
+    margin-top: 1.49px;
+}
+.footer{
+    margin-top: 25px;
+    display: flex;
+}
+.footer img{
+    border: 1px solid var(--Whitey);
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+.footer p{
+    color: var(--Soft-blue);
+    margin-top: 5px;
+}
+.jules-name{
+    color: var(--Whitey);
+}
+.jules-name:hover{
+    color: var(--Cyan);
+}
